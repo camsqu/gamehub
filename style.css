@@ -24,3 +24,16 @@ div.bg {
   -webkit-filter: blur(3px);
 	filter: blur(3px);
 }
+img {
+  position: relative;
+  height: 300px;
+  left: 80px;
+  top: 80px;
+}
+p.ow {
+  position: relative;
+  font-family: 'Arial', sans-serif;
+  color: white;
+  top: 90px;
+  left: 90px;
+}
