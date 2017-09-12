@@ -3,11 +3,19 @@ h1 {
   position: relative;
   font-family: 'Arial', sans-serif;
   color: white;
+  left: 20px;
 }
-h2 {
+p.tagline {
   position: relative;
   font-family: 'Arial', sans-serif;
   color: white;
+  left: 20px;
+}
+p.tagline2 {
+  position: relative;
+  font-family: 'Arial', sans-serif;
+  color: white;
+  left: 20px;
 }
 p {
   position: relative;
