@@ -3,11 +3,19 @@ h1 {
   position: relative;
   font-family: 'Arial', sans-serif;
   color: white;
+  left: 20px;
 }
-h2 {
+p.tagline {
   position: relative;
   font-family: 'Arial', sans-serif;
   color: white;
+  left: 20px;
+}
+p.tagline2 {
+  position: relative;
+  font-family: 'Arial', sans-serif;
+  color: white;
+  left: 20px;
 }
 p {
   position: relative;
@@ -23,4 +31,17 @@ div.bg {
   left: 0;
   -webkit-filter: blur(3px);
 	filter: blur(3px);
+}
+img {
+  position: relative;
+  height: 300px;
+  left: 80px;
+  top: 80px;
+}
+p.ow {
+  position: relative;
+  font-family: 'Arial', sans-serif;
+  color: white;
+  top: 90px;
+  left: 90px;
 }
