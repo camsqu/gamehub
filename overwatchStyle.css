@@ -1,6 +1,33 @@
+body{
+	background-color: black;
+}
 h1, h3{
 	text-align: center;
 }
 p{
-	letter-spacing: 4px;
+	font-size: 130%;
+	line-height: 30px;
+}
+.sidebar{
+	width: 140px;
+	height: 250px;
+	float: left;
+	font-size: 150%;
+	background-color: purple;
+}
+
+.sidebar a{
+	color: black;
+	display: block;
+	paddding: 0;
+	margin: 0;
+	margin-right: 10px;
+	text-decoration: none;
+}
+.sidebar a:hover{
+	background-color: gray;
+}
+
+.sidebar a.active{
+	color: white;
 }
