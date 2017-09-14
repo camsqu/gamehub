@@ -45,3 +45,7 @@ p.ow {
   top: 90px;
   left: 90px;
 }
+div.pubg {
+  position: relative;
+  color: inherit;
+}
