@@ -44,4 +44,22 @@ p.ow {
   color: white;
   top: 90px;
   left: 90px;
+  padding-bottom: 20px;
+}
+div.pubg {
+  position: relative;
+  height: 300px;
+  left: 300px;
+  bottom: 330px;
+  font-family: 'Arial', sans-serif;
+  color: white;
+}
+p.pb {
+  position: relative;
+  top: 93px;
+  left: 88px;
+}
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
