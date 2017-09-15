@@ -9,25 +9,51 @@ p{
 	line-height: 30px;
 	font-wight: bold;
 }
-.sidebar-nav{
-	height: 550px;
-	float: left;
-	font-size: 150%;
-	background-color: purple;
+li{
+	
+}
+.sidebar {
+    background-color: black;
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
 }
 
-.sidebar-nav a{
-	color: black;
-	display: block;
-	paddding: 0;
-	margin: 0;
-	margin-right: 10px;
-	text-decoration: none;
-}
-.sidebar-nav a:hover{
-	background-color: gray;
+.sidebar h1 {
+    color: white;
 }
 
-.sidebar-nav a.active{
-	color: white;
+
+input[type=checkbox] {
+   display: none;
+}
+
+input:checked ~ .portfolio { 
+    left: 0;
+}
+
+input:checked ~ label {
+    left: 0;
+}
+
+label {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    background-color: blue;
+    
+    -moz-transition: left 0.5s ease;
+    transition: left 0.5s ease;
+}
+.content{
+	position: absolute;
+    top: 0;
+    left: 150px;
+    right: 0;
+    bottom: 0;
+	 -moz-transition: left 0.5s ease;
+    transition: left 0.5s ease;
 }
