@@ -7,16 +7,16 @@ h1, h3{
 p{
 	font-size: 130%;
 	line-height: 30px;
+	font-wight: bold;
 }
-.sidebar{
-	width: 140px;
-	height: 250px;
+.sidebar-nav{
+	height: 550px;
 	float: left;
 	font-size: 150%;
 	background-color: purple;
 }
 
-.sidebar a{
+.sidebar-nav a{
 	color: black;
 	display: block;
 	paddding: 0;
@@ -24,10 +24,10 @@ p{
 	margin-right: 10px;
 	text-decoration: none;
 }
-.sidebar a:hover{
+.sidebar-nav a:hover{
 	background-color: gray;
 }
 
-.sidebar a.active{
+.sidebar-nav a.active{
 	color: white;
 }
