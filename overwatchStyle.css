@@ -9,9 +9,7 @@ p{
 	line-height: 30px;
 	font-wight: bold;
 }
-li{
-	
-}
+
 .sidebar {
     background-color: black;
     width: 150px;
@@ -23,37 +21,4 @@ li{
 
 .sidebar h1 {
     color: white;
-}
-
-
-input[type=checkbox] {
-   display: none;
-}
-
-input:checked ~ .portfolio { 
-    left: 0;
-}
-
-input:checked ~ label {
-    left: 0;
-}
-
-label {
-    z-index: 2;
-    position: absolute;
-    top: 0;
-    left: 150px;
-    background-color: blue;
-    
-    -moz-transition: left 0.5s ease;
-    transition: left 0.5s ease;
-}
-.content{
-	position: absolute;
-    top: 0;
-    left: 150px;
-    right: 0;
-    bottom: 0;
-	 -moz-transition: left 0.5s ease;
-    transition: left 0.5s ease;
 }
