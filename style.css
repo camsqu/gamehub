@@ -1,26 +1,26 @@
-/* style.css */
-h1 {
-  position: relative;
-  font-family: 'Arial', sans-serif;
-  color: white;
-  left: 20px;
-}
-p.tagline {
-  position: relative;
-  font-family: 'Arial', sans-serif;
-  color: white;
-  left: 20px;
-}
-p.tagline2 {
-  position: relative;
-  font-family: 'Arial', sans-serif;
-  color: white;
-  left: 20px;
+/* style.css
+font-family: 'Open Sans', sans-serif; */
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 p {
   position: relative;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: white;
+}
+p.tagline {
+  left: 20px;
+}
+p.ow {
+  top: 90px;
+  left: 90px;
+  padding-bottom: 20px;
+}
+p.pb {
+  top: 93px;
+  left: 88px;
+  padding-bottom: 5px;
 }
 div.bg {
   background-image: url("bg1.png");
@@ -38,32 +38,6 @@ img {
   left: 80px;
   top: 80px;
 }
-p.ow {
-  position: relative;
-  font-family: 'Arial', sans-serif;
-  color: white;
-  top: 90px;
-  left: 90px;
-  padding-bottom: 20px;
-}
-div.pubg {
-  position: relative;
-  height: 300px;
-  left: 300px;
-  bottom: 330px;
-  font-family: 'Arial', sans-serif;
-  color: white;
-}
-p.pb {
-  position: relative;
-  top: 93px;
-  left: 88px;
-  padding-bottom: 5px;
-}
-body {
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
 img.grow { transition: all .2s ease-in-out; }
 img.grow:hover { transform: scale(1.05); }
 nav.navbar {
@@ -74,6 +48,7 @@ nav.navbar {
   font-size: 30px;
   font-weight: 300;
   color: white;
+  font-family: 'Open Sans', sans-serif;
 }
 .navbar-default .navbar-nav>li>a {
   color: white;
