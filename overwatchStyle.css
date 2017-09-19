@@ -1,5 +1,8 @@
 body{
 	background-color: black;
+	background-image: url("overwatchBG.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 h1, h3{
 	text-align: center;
@@ -8,17 +11,23 @@ p{
 	font-size: 130%;
 	line-height: 30px;
 	font-wight: bold;
+	font-color: white;
+}
+
+.sidebar-list{
+	font-size: 150%;
+	color: white;
+	font-weight: bold;
 }
 
 .sidebar {
     background-color: black;
-    width: 150px;
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
+	display: none;
 }
-
-.sidebar h1 {
-    color: white;
+button{
+	background-color: white;
 }
