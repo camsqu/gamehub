@@ -22,6 +22,9 @@ p.pb {
   left: 88px;
   padding-bottom: 5px;
 }
+p.credits {
+  display: none;
+}
 div.bg {
   background-image: url("bg1.png");
   position: fixed;
@@ -31,6 +34,11 @@ div.bg {
   left: 0;
   -webkit-filter: blur(3px);
 	filter: blur(3px);
+}
+div.col-md-12 {
+  top: 90px;
+  left: 20px;
+  padding-bottom: 10px;
 }
 img {
   position: relative;
