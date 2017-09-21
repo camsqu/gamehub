@@ -2,18 +2,23 @@
 <html lang = "en">
 	<head>
 		<meta charset="utf-8">
+
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<meta name="description" content="">
+
+		<meta name="author" content="">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src = "overwatchScript.js"></script>
 		<title>Overwatch</title>
 		<link rel = "stylesheet" type = "text/css" href = "overwatchStyle.css"/>
 	</head>
+	<body>
 	
-	<nav class="navbar navbar-default">
-		<div class="container-fluid">
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
 				<div class="navbar-header">
-				
 				  <a class="navbar-brand" href="index.html">GameHub</a>
 				</div>
 				<ul class="nav navbar-nav">
@@ -21,32 +26,53 @@
 				  <li class="active"><a href="#">Overwatch</a></li>
 				  <li><a href="pubgTab.html">PUBG</a></li>
 				</ul>
-			 </div>
-	</nav>
-	<button type="button" class="navbar-toggle" data-toggle="sidebar" data-target=".sidebar">
-		  <span class="sr-only">Toggle navigation</span>
-		  <span class="icon-bar"></span>
-		  <span class="icon-bar"></span>
-		  <span class="icon-bar"></span>
-	</button>
-		<div class = "sidebar">
-		
-			<ul>
-				<li class = "sidebar-list"><a href = "#overwatch">Overwatch</a></li>
-				<li class = "sidebar-list"><a href = "#reviews">Reviews</a></li>
-			</ul>
-		</div>
-		<div class="main-wrap">
-			<body>
+			</div>
+		</nav>
+		<div id = "#wrapper">
+	
+	<div id="wrapper">
 
-					<h1 id = "overwatch" ><a href = "overwatch"></a>Overwatch</h1>
-						<div>
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    Overwatch
+                </li>
+                <li>
+                    <a href="#description">Description</a>
+                </li>
+                <li>
+                    <a href="#reviews">Reviews</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><img src = "menuIcon.jpg" alt = "menuIcon" width = "15px" height = "15px" /></a>
+						<h1 id = "description" ><a href = "overwatch"></a>Overwatch</h1>
 							<p style="float: left;"><img src = "overwatchLogo.jfif" alt = "logo" width = "200px" height = "200px"/></p>
 							<p>Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.</p>
-						</div>
-					<h1 id = "reviews"><a href = "overwatch"></a>Reviews</h1>
-						<p>Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.</p>
-			</body>
-		</div>		
-	</div>	
+						<h1 id = "reviews"><a href = "overwatch"></a>Reviews</h1>
+							<p>Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.Overwatch is a hero shooter that has a heavy emphasis on objectives.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+     <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+	</body>	
 </html>
