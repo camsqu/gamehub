@@ -1,12 +1,17 @@
 body{
 	background-color: white;
 }
-h1, h3{
+h1, h2{
 	text-align: center;
 }
 p{
-	font-size: 130%;
-	line-height: 30px;
+	font-size: 150%;
+	line-height: 25px;
+	font-wight: bold;
+}
+#quotes{
+	font-size: 180%;
+	line-height: 25px;
 	font-wight: bold;
 }
 
