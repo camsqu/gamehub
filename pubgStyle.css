@@ -3,10 +3,22 @@ body
 	background-color: black;
 }
 
-img
+#pubgImage
 {
 	height: 10%;
 	width: 10%;
+	float: left;
+}
+
+#intro
+{
+	margin: 50px;
+}
+
+.txtEdt
+{
+	color: white;
+	text-indent: 50px;
 }
 
 table
@@ -20,12 +32,17 @@ table
 	text-align: center;
 }
 
-#rvw
+#rvw, #wtb
 {
 	border: none;
 	text-align: center;
 	display: inline-block;
 	padding: 15px 45%;
 	
+}
+
+#rvwTxt, #wtbTxt
+{
+	text-indent: 50px;
 }
 
