@@ -16,6 +16,7 @@
   {% block style %}{% endblock %}
 </head>
 <body>
+{% block background %}{% endblock %}
 <nav class="navbar navbar-default">
  <div class="container-fluid">
    <div class="navbar-header">
@@ -35,7 +36,7 @@
  </div>
  </div>
 </nav>
-<div class="bg"></div>
-{% block body %}{% endblock %}
+
+{% block content %}{% endblock %}
 </body>
 </html>
